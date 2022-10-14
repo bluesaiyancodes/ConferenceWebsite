@@ -57,7 +57,7 @@ export const workboxConfig: GenerateSWOptions = {
         expiration: STATIC_EXPIRATION,
       },
     },
-    {
+    {//HActober Mateus
       urlPattern: /https:\/\/storage\.googleapis\.com\/.*/,
       handler: 'NetworkFirst',
       options: {
